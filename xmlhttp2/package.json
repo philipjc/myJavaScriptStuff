@@ -1,0 +1,27 @@
+{
+  "name": "xmlhttp2",
+  "version": "1.0.0",
+  "description": "Trying out XMLHttpRequest 2",
+  "main": "blob.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "philipjc",
+  "license": "MIT",
+  "devDependencies": {
+    "connect-livereload": "^0.5.3",
+    "gulp": "^3.8.11",
+    "gulp-livereload": "^3.8.0",
+    "gulp-shell": "^0.4.1",
+    "livereload": "^0.3.7",
+    "proxy": "^0.2.3",
+    "proxy-middleware": "^0.11.0",
+    "refresh": "^1.0.1",
+    "shell": "^0.3.2",
+    "stubby": "^0.2.11",
+    "url": "^0.10.3"
+  },
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}

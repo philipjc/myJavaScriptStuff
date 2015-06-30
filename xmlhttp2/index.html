@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="container">
+  <h1>XMLHttpRequest2</h1>
+
+  <div id="picture"></div>
+</div>
+<div class="container">
+  <!-- form data reference -->
+  <form id="myform" name="myform" action="/server">
+  <input type="text" name="username" value="johndoe">
+  <input type="number" name="id" value="123456">
+  <input type="submit" onclick="return sendForm(this.form);">
+  <button type="submit">Submit</button>
+</form>
+</div>
+<script src="js/blob.js"></script>
+<script src="js/post.js"></script>
+</body>
+</html>

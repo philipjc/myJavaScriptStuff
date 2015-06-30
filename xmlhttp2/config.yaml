@@ -1,0 +1,22 @@
+- request:
+    method: GET
+    url: /app
+  response:
+    status: 200
+    latency: 400
+    headers:
+      content-type: application/json
+      Access-Control-Allow-Origin: *
+    file: api/app.json
+    body: OK
+
+- request:
+    method: GET
+    url: /app/people
+  response:
+    status: 200
+    latency: 400
+    headers:
+      content-type: application/json
+    file: api/people/people.json
+    body: OK
