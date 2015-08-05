@@ -1,1 +1,1 @@
-A collection of my JS examples.
+A collection of my JS code examples.
